@@ -13,7 +13,7 @@ var path = require('path')
  * @param options
  * @returns {Function} Middleware function
  */
-module.exports = function(options) {
+module.exports = exports = function(options) {
 
   var root = options.assets.root
     , assetsJson = path.join(root, 'assets.json')
@@ -96,3 +96,5 @@ module.exports = function(options) {
   };
 
 };
+
+exports.AssetsCompiler = AssetsCompiler;
