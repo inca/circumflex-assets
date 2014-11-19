@@ -1,0 +1,40 @@
+{
+  "name": "circumflex-assets",
+  "version": "0.0.1",
+  "description": "Assets manager",
+  "dependencies": {
+    "uglify-js": "*",
+    "stylus": "*",
+    "nib": "*",
+    "async": "*",
+    "underscore": "*",
+    "mkdirp": "*"
+  },
+  "devDependencies": {
+    "rimraf": "*",
+    "circumflex-configuration": "*",
+    "express": "4.x.x",
+    "request": "*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inca/circumflex-assets"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "assets",
+    "bundle",
+    "package"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/circumflex-assets/issues"
+  },
+  "homepage": "https://github.com/inca/circumflex-assets"
+}
