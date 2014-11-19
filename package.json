@@ -1,6 +1,6 @@
 {
   "name": "circumflex-assets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Assets manager",
   "dependencies": {
     "uglify-js": "*",
