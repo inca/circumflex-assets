@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "rimraf": "*",
-    "circumflex-configuration": "*",
     "express": "4.x.x",
     "request": "*"
   },
